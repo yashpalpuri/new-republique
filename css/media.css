@@ -1,0 +1,177 @@
+@media(min-width:1400px){
+    .header{
+        width: 10%;
+    }
+    .rightpanel{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .mainslider .outerslider h1{
+        line-height: 68px;
+    }
+}
+@media(min-width:1600px){
+    
+    .mainslider .outerslider h1{
+        line-height: 75px;
+    }
+}
+@media(max-width:1024px){
+    .topheader{
+        display: block;
+    }
+    .header img{
+        display: none;
+    }
+    .header{
+        width: 100%;
+        opacity: 0.99;
+        display: none;
+        z-index: 9999;
+        top:65px;
+    }
+    .header ul{
+        float: left;
+        margin-left: 25px;
+    }
+    .header ul li{
+        margin-bottom: 6px;
+        padding-bottom: 0;
+        padding-top: 14px;
+    }
+    .rightpanel{
+        margin-left: 0;
+        margin-top: 65px;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+} 
+@media(max-width:991px){
+    .container{
+        padding: 0 15px !important;
+    }
+    .mainslider .outerslider h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .mainslider .outerslider p{
+        font-size: 18px;
+    }
+    .mainslider .outerslider .col-sm-4{
+        max-width: 90vh;
+    }
+}
+@media(max-width:768px){
+
+}
+@media(max-width:767px){
+    .box2 h2{
+        font-size: 60px;
+    }
+    .box3 .item{
+        margin-top: 45px;
+    }
+    .box5 h1{
+        font-size: 30px;
+    }
+    .box5 img{
+        display: none;
+    }
+    .box3 p span{
+        display: inline;
+    }
+    .mainslider .outerslider{
+        background: #F4F4F4 !important;
+    }
+}
+@media(max-width:560px){
+    .box4 p{
+        font-size: 17px;
+    }
+    .box2 h2 {
+        font-size: 28px;
+    }
+    .box3 h2{
+        font-size: 37px;
+    }
+    .box2, .box4, .box7{
+        padding: 40px 0;
+    }
+    .box4 p span{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .box3{
+        padding-top: 40px;
+    }
+    .box4 .slick-dots{
+        bottom: -30px;
+    }
+    .box5 h1 {
+        font-size: 24px;
+    }
+    .box7 h1{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .box7 p{
+        font-size: 16px;
+    }
+    .box7 p span, .box2 p span{
+        display: inline;
+    }
+    .box7 input{
+        width: 100%;
+    }
+    .footer .top .social li a{
+        margin: 0 7px;
+        padding: 3px;
+        width: 44px;
+        height: 44px;
+    }
+    .footer .top .clogo{
+        margin-top: 0
+    }
+    .footer .top .clogo li{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .box1 h1{
+        font-size: 35px;
+    }
+    .box1 p{
+        font-size: 17px;
+    }
+    .box1 .round p{
+        font-size: 43px;
+    }
+    .topheader{
+        padding: 10px;
+    }
+    .mainslider .outerslider h1 {
+        font-size: 25px;
+    }
+    .mainslider .outerslider p{
+        font-size: 16px;
+    }
+    .mainslider .outerslider span{
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .box6 .item .inner h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .box2 h2 span{
+        display: inline;
+    }
+}
+@media(max-width:414px){
+
+}
+@media(max-width:320px){
+
+}
